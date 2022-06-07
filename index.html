@@ -135,7 +135,7 @@
           </p>
           <h2 class="prices-title title">Услуги и цены</h2>
           <div class="prices-wrap">
-            <ul class="prices-list list">
+            <ul class="prices-list prices-list-light list">
               <li class="prices-item">
                 <p class="prices-item-text">Мужская стрижка</p>
                 <p class="prices-item-text">от 300 грн.</p>
@@ -154,7 +154,7 @@
               </li>
             </ul>
 
-            <ul class="prices-list list">
+            <ul class="prices-list prices-list-dark list">
               <li class="prices-item">
                 <p class="prices-item-text">Cтрижка у стажера</p>
                 <p class="prices-item-text">от 50 грн.</p>
@@ -226,6 +226,25 @@
               />
               <h3 lang="en" class="masters-item-title">John Smith</h3>
               <p lang="en" class="masters-item-text">Extreme Barber</p>
+              <!--Иконки социальных сетей-->
+              <ul class="masters-soc-list list">
+                <li class="masters-soc-item">
+                  <a href="" class="masters-soc-link link">
+                    <svg class="masters-soc-icon" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="masters-soc-item">
+                  <a href="" class="masters-soc-link link"></a>
+                </li>
+                <li class="masters-soc-item">
+                  <a href="" class="masters-soc-link link"></a>
+                </li>
+                <li class="masters-soc-item">
+                  <a href="" class="masters-soc-link link"></a>
+                </li>
+              </ul>
             </li>
             <li class="masters-item">
               <img
@@ -292,40 +311,44 @@
 
       <!--Онлайн запись-->
 
-      <section class="online">
-        <h2 class="online-title title">Онлайн-запись</h2>
-        <button type="button" class="online-btn btn">онлайн-запись</button>
-      </section>
+      <div class="contact-wrap">
+        <div class="container">
+          <section class="online">
+            <h2 class="online-title title">Онлайн-запись</h2>
+            <button type="button" class="online-btn btn">онлайн-запись</button>
+          </section>
 
-      <!--Контакты-->
-      <section class="contacts">
-        <h2 class="contacts-title title">Контакты</h2>
-        <address class="contacts-address">
-          <ul class="contacts-list list">
-            <li class="contacts-item">
-              <a
-                href="https://goo.gl/maps/bmqVS71UuU21L3uq6"
-                class="contacts-link link"
-                target="_blank"
-                rel="noopener nofollow noreferrer"
-                >ул. Васильковская, 7А Киев, 08132</a
-              >
-            </li>
-            <li class="contacts-item">
-              <a href="tel:+380441111111" class="contacts-link link"
-                >+38 044 111 11 11</a
-              >
-            </li>
-            <li class="contacts-item">
-              <a href="mailto:barbershop@email.com" class="contacts-link"
-                >barbershop@email.com</a
-              >
-            </li>
-          </ul>
-        </address>
-        <p class="contacts-subtitle">время работы</p>
-        <p class="contacts-time">Ежедневно с 9:00 до 22:00</p>
-      </section>
+          <!--Контакты-->
+          <section class="contacts">
+            <h2 class="contacts-title title">Контакты</h2>
+            <address class="contacts-address">
+              <ul class="contacts-list list">
+                <li class="contacts-item">
+                  <a
+                    href="https://goo.gl/maps/bmqVS71UuU21L3uq6"
+                    class="contacts-link link"
+                    target="_blank"
+                    rel="noopener nofollow noreferrer"
+                    >ул. Васильковская, 7А Киев, 08132</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <a href="tel:+380441111111" class="contacts-link link"
+                    >+38 044 111 11 11</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <a href="mailto:barbershop@email.com" class="contacts-link"
+                    >barbershop@email.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <p class="contacts-subtitle">время работы</p>
+            <p class="contacts-time">Ежедневно с 9:00 до 22:00</p>
+          </section>
+        </div>
+      </div>
     </main>
 
     <!--Футер-->
